@@ -1,0 +1,11 @@
+.brand {
+    cursor: pointer;
+}
+
+
+@media (max-width: 800px) {
+    .root svg {
+        width: 80px;
+        height: 80px;
+    }
+}

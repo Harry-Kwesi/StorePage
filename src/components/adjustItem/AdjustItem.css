@@ -1,0 +1,60 @@
+.rootadjustItem {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px solid var(--bg-light-gray);
+    width: 99px;
+    padding: 12px;
+    background-color: var(--standard-white);
+}
+
+.iconContainerAdjustItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.rootadjustItem > span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.inputContainerAdjustItem input::-webkit-outer-spin-button,
+.inputContainerAdjustItem input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.inputContainerAdjustItem input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.inputContainerAdjustItem {
+    width: 30px;
+    height: 18px;
+}
+
+.inputContainerAdjustItem input {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+    text-align: center;
+
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+}
+
+.transparentAdjustItem {
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+
+.transparentInputAdjustItem {
+    background-color: transparent;
+}

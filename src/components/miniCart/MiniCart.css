@@ -1,0 +1,111 @@
+.minicart {
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.titleContainerMinicart {
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--bg-light-gray);
+    margin: 32px 16px 32px 16px;
+}
+
+.titleContainerMinicart h4{
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.cartItemsContainerMinicart {
+    margin: 0px 16px 16px 16px;
+    overflow-y: auto;
+    height: 65%;
+}
+
+.cartItemsContainerMinicart > div {
+    margin-bottom: 16px;
+}
+
+.summaryContainerMinicart {
+    width: 100%;
+    position: absolute;
+    bottom: 16px;
+    left: 0px;
+}
+
+.totalContainerMinicart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.totalContainerMinicart span {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.taxNotes {
+    margin: 24px 0px;
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.summaryContentMinicart {
+    margin: 0px 16px;
+    padding-top: 32px;
+    border-top: 1px solid var(--bg-light-gray);
+}
+
+.linkContainerMinicart {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.linkContainerMinicart  a {
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--standard-black);
+    text-align: center;
+    color: var(--standard-black);
+    transition: all ease-in-out 0.3s;
+
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+}
+
+.linkContainerMinicart  a:hover {
+    color: var(--standard-gold);
+    border-bottom: 1px solid var(--standard-gold);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.cartItemsContainer::-webkit-scrollbar {
+    display: none;
+  }
+  
+/* Hide scrollbar for IE, Edge and Firefox */
+.cartItemsContainer {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+@media (max-width: 800px) {
+    .titleContainer h4 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 500px) {
+    .totalContainer span {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+
+}
